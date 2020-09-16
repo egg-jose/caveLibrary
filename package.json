@@ -1,31 +1,32 @@
 {
-    "name": "cavelibrary",
-    "version": "0.0.1",
-    "description": "Books API - practice nodejs express MVC",
-    "main": "index.js",
-    "scripts": {
-        "start": "node ./index.js",
-        "dev": "nodemon ./index.js",
-        "format": "prettier --write"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/jose1897/caveLibrary.git"
-    },
-    "author": "Jose Esteban",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/jose1897/caveLibrary/issues"
-    },
-    "homepage": "https://github.com/jose1897/caveLibrary#readme",
-    "devDependencies": {
-        "nodemon": "^2.0.4",
-        "prettier": "^2.1.1"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "joi": "^17.2.1",
-        "mongoose": "^5.10.5",
-        "node": "^14.10.1"
-    }
+  "name": "cavelibrary",
+  "version": "0.0.1",
+  "description": "Books API - practice nodejs express MVC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "format": "prettier --write **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose1897/caveLibrary.git"
+  },
+  "author": "Jose Esteban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jose1897/caveLibrary/issues"
+  },
+  "homepage": "https://github.com/jose1897/caveLibrary#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.5",
+    "node": "^14.10.1"
+  }
 }
